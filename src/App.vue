@@ -2,6 +2,7 @@
 import AudioPlayer from './components/AudioPlayer.vue'
 import MicInput from './components/MicInput.vue'
 import MicRecorder from './components/MicRecorder.vue'
+import DualMicRecorder from './components/DualMicRecorder.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import MicRecorder from './components/MicRecorder.vue'
     <!--<AudioPlayer />
     <MicInput />-->
     <MicRecorder />
+    <DualMicRecorder />
   </div>
 </template>
 
