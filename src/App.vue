@@ -8,10 +8,9 @@ import DualMicRecorder from './components/DualMicRecorder.vue';
 <template>
   <div id="app">
     <h1>🎧 Proyecto WebAudio</h1>
-    <p>Hola, Dani. ¡Tu primera app Vue está viva!</p>
     <!--<AudioPlayer />
-    <MicInput />-->
-    <MicRecorder />
+    <MicInput />
+    <MicRecorder />-->
     <DualMicRecorder />
   </div>
 </template>
