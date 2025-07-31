@@ -3,6 +3,8 @@ import AudioPlayer from './components/AudioPlayer.vue'
 import MicInput from './components/MicInput.vue'
 import MicRecorder from './components/MicRecorder.vue'
 import DualMicRecorder from './components/DualMicRecorder.vue';
+import DualChannelRecorder from './components/DualChannelRecorder.vue';
+
 </script>
 
 <template>
@@ -10,8 +12,9 @@ import DualMicRecorder from './components/DualMicRecorder.vue';
     <h1>🎧 Proyecto WebAudio</h1>
     <!--<AudioPlayer />
     <MicInput />
-    <MicRecorder />-->
-    <DualMicRecorder />
+    <MicRecorder />
+    <DualMicRecorder-->
+      <DualChannelRecorder/>
   </div>
 </template>
 
